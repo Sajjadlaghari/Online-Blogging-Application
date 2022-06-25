@@ -18,8 +18,8 @@
 			$mail->Port = 587;
 			$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 			$mail->SMTPAuth = true;
-			$mail->Username = 'sajjadlaghari723@gmail.com';
-			$mail->Password = 'xbofhbvnskwjdmep';
+			$mail->Username = 'Enter Your Email Here';
+			$mail->Password = 'Entter Your Password Here';
 			$mail->setFrom('sajjadlaghari723@gmail.com','Online Blogging Application');
 			$mail->addAddress($email);
 			$mail->Subject = $sub;
